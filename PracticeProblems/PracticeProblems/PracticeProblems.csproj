@@ -46,11 +46,14 @@
     <Compile Include="Abstraction.cs" />
     <Compile Include="ChildClass.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="InheritanceTypescs.cs" />
     <Compile Include="MethodOverLoading.cs" />
     <Compile Include="MethodOverRiding.cs" />
+    <Compile Include="MultipleAddition.cs" />
     <Compile Include="ParentClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleInheritance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
