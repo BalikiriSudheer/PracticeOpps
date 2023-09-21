@@ -10,11 +10,10 @@ namespace PracticeProblems
     {
         static void Main(string[] args)
         {
-            Book b=new Book();
-            b.title = "Harry potter";
-            b.author = "Rowling";
-            b.pages = 400;
-            Console.Write(b.title+" "+b.author+" "+b.pages);
+           ChildClass cl= new ChildClass();
+            cl.Employee();
+            cl.Sal();
+            cl.Example();
             Console.ReadLine();
         }
     }

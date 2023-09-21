@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace PracticeProblems
 {
-    internal class Book
+    internal class ChildClass:ParentClass
     {
-        public String title;
-        public String author;
-        public int pages;
+        public void Example()
+        {
+            Console.WriteLine("Hello ");
+        }
     }
 }
