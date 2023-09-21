@@ -32,6 +32,11 @@ namespace PracticeProblems
             e.setValue(4567);
             Console.WriteLine("ATM PIN "+e.getReturn());
 
+            Student a=new Student();
+            a.Farmer();
+            a.Work();
+
+
             Console.ReadLine() ;
 
         }
