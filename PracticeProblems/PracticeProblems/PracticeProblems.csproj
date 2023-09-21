@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChildClass.cs" />
+    <Compile Include="Encapsulation.cs" />
     <Compile Include="MethodOverLoading.cs" />
     <Compile Include="MethodOverRiding.cs" />
     <Compile Include="ParentClass.cs" />

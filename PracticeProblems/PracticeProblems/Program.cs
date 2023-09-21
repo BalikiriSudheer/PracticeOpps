@@ -16,18 +16,22 @@ namespace PracticeProblems
            // cl.Sal();
             //cl.Example();
             //Console.ReadLine();
-           MethodOverLoading mo=new MethodOverLoading();
-            Console.WriteLine(mo.Sum(1, 2));
-            Console.WriteLine(mo.Sum(1, 2,3));
-            Console.WriteLine(mo.Sum(1, 2,3,4));
+           //MethodOverLoading mo=new MethodOverLoading();
+            //Console.WriteLine(mo.Sum(1, 2));
+           // Console.WriteLine(mo.Sum(1, 2,3));
+            //Console.WriteLine(mo.Sum(1, 2,3,4));
             //Console.ReadLine();
 
-            MethodOverRiding mr=new MethodOverRiding();
-            Circle c=new Circle();
-            Rectangle r=new Rectangle();
-            mr.Draw();
-            c.Draw();
-            r.Draw();
+           // MethodOverRiding mr=new MethodOverRiding();
+            //Circle c=new Circle();
+            //Rectangle r=new Rectangle();
+            //mr.Draw();
+            //c.Draw();
+            //r.Draw();
+            Encapsulation e=new Encapsulation();
+            e.setValue(4567);
+            Console.WriteLine("ATM PIN "+e.getReturn());
+
             Console.ReadLine() ;
 
         }
