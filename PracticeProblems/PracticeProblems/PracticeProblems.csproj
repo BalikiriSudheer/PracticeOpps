@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChildClass.cs" />
+    <Compile Include="MethodOverLoading.cs" />
+    <Compile Include="MethodOverRiding.cs" />
     <Compile Include="ParentClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
